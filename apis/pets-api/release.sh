@@ -4,4 +4,4 @@ DOCKER_USER="kcbabo"
 
 docker buildx build --push \
     --platform linux/amd64,linux/arm64 \
-    --tag kcbabo/pets-rest-api .
+    --tag gcr.io/solo-public/docs/pets-rest-api .

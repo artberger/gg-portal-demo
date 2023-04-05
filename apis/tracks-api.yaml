@@ -16,7 +16,7 @@ spec:
         app: tracks-rest-api
     spec:
       containers:
-      - image: kcbabo/tracks-rest-api:latest
+      - image: gcr.io/solo-public/docs/tracks-rest-api:latest
         name: tracks-rest-api
         ports:
         - containerPort: 5000
